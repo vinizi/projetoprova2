@@ -29,7 +29,7 @@ public class VotacaoTimes {
                 voto = scanner.nextInt();
 
                 if (voto >= 1 && voto <= 4) {
-                    break; // Voto válido, sai do loop
+                    break;
                 } else {
                     System.out.println("Voto inválido! Por favor, digite um número de 1 a 4.");
                 }
