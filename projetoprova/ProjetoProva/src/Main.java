@@ -36,7 +36,7 @@ public class VotacaoTimes {
                 }
             }
 
-            // Atualiza a contagem de votos
+           
             switch (voto) {
                 case 1:
                     times.put("Teffismo Club", times.get("Teffismo Club") + 1);
@@ -53,7 +53,7 @@ public class VotacaoTimes {
             }
         }
 
-        // Exibir resultados
+     
         System.out.println("\nResultados da votação:");
         String timeVencedor = null;
         int maxVotos = -1;
@@ -66,7 +66,7 @@ public class VotacaoTimes {
             }
         }
 
-        // Exibe o time vencedor
+      
         System.out.println("O time vencedor é: " + timeVencedor + " com " + maxVotos + " votos!");
 
         scanner.close();
