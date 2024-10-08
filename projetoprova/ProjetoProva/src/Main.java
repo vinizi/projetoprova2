@@ -24,7 +24,6 @@ public class VotacaoTimes {
             System.out.println("4 - Sport Redes FC");
             int voto = 0;
 
-            // Solicita um voto até que seja válido
             while (true) {
                 System.out.print("Digite o número correspondente ao seu time (1-4): ");
                 voto = scanner.nextInt();
